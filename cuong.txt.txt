@@ -1,22 +1,12 @@
-Git là m?t h? th?ng qu?n lı phiên b?n phân tán (distributed version control system - DVCS) du?c phát tri?n b?i Linus Torvalds vào nam 2005. Git cho phép các nhà phát tri?n qu?n lı mã ngu?n c?a h? và h?p tác v?i nhau m?t cách hi?u qu? thông qua các nhánh (branches), merge (h?p nh?t), và các tính nang khác mà không c?n k?t n?i m?ng liên t?c.
-GitHub là m?t d?ch v? luu tr? mã ngu?n d?a trên web s? d?ng Git d? qu?n lı. GitHub cung c?p các công c? qu?n lı d? án, cho phép ngu?i dùng luu tr? mã ngu?n, qu?n lı phiên b?n, qu?n lı các d? án ph?n m?m, và h? tr? công vi?c h?p tác gi?a các nhà phát tri?n.
-Các ch?c nang chính trong GitHub bao g?m:
-Repository (Kho mã ngu?n): Luu tr? mã ngu?n c?a d? án và các tài li?u liên quan.
-Issues (V?n d?): Theo dõi các v?n d?, l?i và các yêu c?u tính nang.
-Pull Requests (Yêu c?u kéo): Ğ? xu?t và th?o lu?n v? các thay d?i s?a d?i tru?c khi h?p nh?t vào nhánh chính.
-Actions: T? d?ng hóa các công vi?c nhu ki?m th?, tri?n khai khi có s? ki?n nh?t d?nh x?y ra.
-
-Wiki: T?o và qu?n lı các trang wiki d? chia s? thông tin b? sung.
-Projects (D? án): Qu?n lı các công vi?c, tác v? và ti?n d? d? án.
-Gists: Luu tr? và chia s? các do?n mã ng?n
-Security: Các công c? d? qu?n lı b?o m?t mã ngu?n.
-SourceTree là m?t ?ng d?ng máy tính d? d? h?a hoá cho Git và Mercurial. Nó du?c phát tri?n b?i Atlassian và cung c?p giao di?n d? h?a thân thi?n d? qu?n lı và tuong tác v?i kho mã ngu?n Git và Mercurial m?t cách tr?c quan.
-Các tính nang chính trong SourceTree bao g?m:
-Visual Commit History (L?ch s? commit tr?c quan): Hi?n th? l?ch s? commit du?i d?ng bi?u d? d? d? dàng nhìn th?y l?ch s? thay d?i.
-Branching, Merging, và Rebasing: H? tr? t?o và qu?n lı nhánh, h?p nh?t (merge) và rebase (di?u ch?nh l?i l?ch s? commit).
-Stash và Shelve: Luu tr? t?m th?i các thay d?i chua commit d? có th? quay l?i sau.
-Remote Repository Management (Qu?n lı kho mã ngu?n t? xa): Ğ?ng b? hóa v?i các kho mã ngu?n t? xa nhu GitHub, Bitbucket.
-File History (L?ch s? file): Xem l?ch s? thay d?i c?a m?t file c? th?.
-Git Flow Integration: H? tr? s? d?ng Git Flow d? qu?n lı quy trình phát tri?n.
-Submodule Support (H? tr? Submodule): Qu?n lı các submodule trong d? án.
-SourceTree giúp gi?m thi?u vi?c s? d?ng dòng l?nh và cung c?p giao di?n d? h?a tr?c quan hon d? làm vi?c v?i các h? th?ng qu?n lı mã ngu?n phân tán nhu Git và Mercurial.
+Git lÃ  gÃ¬ ?
+Git lÃ  má»™t há»‡ thá»‘ng quáº£n lÃ½ phiÃªn báº£n giÃºp lÆ°u trá»¯ vÃ  theo dÃµi sá»± thay Ä‘á»•i cá»§a mÃ£ nguá»“n trong phÃ¡t triá»ƒn pháº§n má»m. NÃ³ cho phÃ©p báº¡n lÃ m viá»‡c nhÃ³m, táº¡o vÃ  há»£p nháº¥t cÃ¡c phiÃªn báº£n khÃ¡c nhau má»™t cÃ¡ch dá»… dÃ ng vÃ  an toÃ n.
+Github lÃ  gÃ¬ ?
+GitHub lÃ  má»™t ná»n táº£ng lÆ°u trá»¯ mÃ£ nguá»“n vÃ  há»£p tÃ¡c trá»±c tuyáº¿n dá»±a trÃªn Git, giÃºp cÃ¡c nhÃ  phÃ¡t triá»ƒn lÆ°u trá»¯, quáº£n lÃ½ vÃ  chia sáº» mÃ£ nguá»“n cá»§a há».
+TrÃ¬nh bÃ y cÃ¡c chÃ­nh nÄƒng trong Github ?
+-LÆ°u trá»¯ mÃ£ nguá»“n: DÃ¹ng Ä‘á»ƒ lÆ°u trá»¯ vÃ  quáº£n lÃ½ mÃ£ nguá»“n dá»± Ã¡n pháº§n má»m.
+-Há»£p nháº¥t mÃ£ nguá»“n (Pull Requests): Cho phÃ©p Ä‘á» xuáº¥t vÃ  há»£p nháº¥t thay Ä‘á»•i tá»« cÃ¡c nhÃ¡nh khÃ¡c vÃ o nhÃ¡nh chÃ­nh.
+-Quáº£n lÃ½ váº¥n Ä‘á» (Issue Tracking): GiÃºp bÃ¡o cÃ¡o lá»—i vÃ  yÃªu cáº§u tÃ­nh nÄƒng Ä‘á»ƒ quáº£n lÃ½ vÃ  giáº£i quyáº¿t.
+-Wiki vÃ  Documentation: Cung cáº¥p khÃ´ng gian Ä‘á»ƒ táº¡o vÃ  duy trÃ¬ tÃ i liá»‡u cho dá»± Ã¡n.
+-Cá»™ng tÃ¡c vÃ  ÄÃ¡nh giÃ¡ (Collaboration and Code Review): Há»— trá»£ cÃ¡c cÃ´ng Ä‘oáº¡n phÃª duyá»‡t mÃ£ nguá»“n vÃ  tháº£o luáº­n trá»±c tuyáº¿n.
+-Integrations vÃ  Actions: TÃ­ch há»£p vÃ  tá»± Ä‘á»™ng hÃ³a cÃ¡c quy trÃ¬nh phÃ¡t triá»ƒn pháº§n má»m.
+-Máº¡ng xÃ£ há»™i: Káº¿t ná»‘i vÃ  tÆ°Æ¡ng tÃ¡c giá»¯a cÃ¡c láº­p trÃ¬nh viÃªn trÃªn ná»n táº£ng GitHub.
